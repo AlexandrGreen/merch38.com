@@ -1,0 +1,25 @@
+<template>
+	<q-layout class="layout">
+		<q-page-container>
+			<router-view/>
+		</q-page-container>
+	</q-layout>
+</template>
+
+<script>
+import {defineComponent, ref} from 'vue'
+
+export default defineComponent({
+	name: 'MainLayout',
+
+	setup() {
+		return {}
+	}
+})
+</script>
+
+<style lang="scss" scoped>
+.layout {
+	outline: none;
+}
+</style>
